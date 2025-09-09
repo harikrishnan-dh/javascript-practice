@@ -1,7 +1,7 @@
 
 //javascript basic concepts
 
-// // console.log("Welcome to the site");
+// // console.log("Welcome to the page");
 // // alert("Welcome to the site");
 // // console.log("This is a test message");
 // // console.log([1, 2, 3, 4, 5]);
