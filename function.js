@@ -1,6 +1,8 @@
 
 //javascript basic concepts
 
+const { jsx } = require("react/jsx-runtime");
+
 // // console.log("Welcome to the page");
 // // alert("Welcome to the site");
 // // console.log("This is a test message");
@@ -270,7 +272,11 @@
 // 13 bitwise opertors in  javascript
 // bitwise operators(&)
 
-
+h,jsx.key="value"
+let a=5;
+let b=3;
+let c=a&b;
+console.log(c);
 
 
 
