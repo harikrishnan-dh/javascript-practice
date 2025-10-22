@@ -654,3 +654,51 @@ console.table(hari);
 const y=[1,2,3,4,5,6,7,8,9,10];
 console.log(y);
 y.forEach(( value,index)=>{console.log("value:"+value+ " index;"+index)});
+
+// map methodes
+
+let z=[1,2,3,4,5,6,7,8,9,10];
+let newarray=z.map((value,index)=>{return value*4;});
+console.log(newarray);
+
+    // slice method
+    let fruits=["apple","banana","grapes","mango","orange"];
+    console.log(fruits);
+    console.log("slice :" +fruits .slice(1,5));
+
+    // splice methdes
+    let har=["10" ,"20","30","40","60"];  /* this a remove the elements in splices method*/
+    console.log(har);
+    let removed_elements =har.splice(30,40);
+    console.log("splice:"+ removed_elements,har);
+    const kar=[1,2,3,4,5,6,7,8,9];
+    console.log(kar);
+    // tis a add the elemnts in splices method
+    kar.splice(8,0,4);
+    console.log(kar);
+
+    //  concat method
+    let a1=[1,2,3];
+    let a2=[4,5,6];
+    let a3=a1.concat(a2,90,80,70,["hari","krishan","gita"]);
+    console.table(a3);
+
+//     // sort()
+//    const g=("banana","apple","mango","grapes","orange");
+//    console.log(g); 
+//     g.Sort();
+//    console.log(g);
+    
+
+// fill method ( value ,start ,end)
+let u=[1,2,3,4,5,6,7,8,9];
+console.log("before :"+u);
+u.fill("l" );
+u.fill("k" ,4,7);
+
+console.log("after  :"+u);
+
+// inlcdes method( value , start ,index)
+const q={name:"hari",age:25,city:"banglore"};
+let result=q.includes["hari"];
+console.log(result);

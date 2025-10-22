@@ -1,3 +1,4 @@
 let fristname="john";
 let lastname="doe";
-console.log(fristname+" "+lastname);
+c=fristname +"" +lastname;
+console.log(c);
