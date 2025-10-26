@@ -580,3 +580,5 @@ console.log("before unshift:",u);
 console.log("after unshift:",u);
 console .log(u);
 
+let p=["hari","krishan","gita","sita"];
+console.log("before unshift:",p);
