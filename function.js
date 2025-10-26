@@ -2,129 +2,7 @@
 // //javascript basic concepts
 
 
-// // // // // // console.log("Welcome to the page");
-// // // // // // alert("Welcome to the site");
-// // // // // // console.log("This is a test message");
-// // // // // // console.log([1, 2, 3, 4, 5]);
-// // // // // // console.table({nam: "John", age: 30, city: "New York"});
-// // // // // // // console.clear();
-// // // // // // console.log({hari: "John", age: 30, city: "New York"});
-// // // // // // console.warn( "warning");
-// // // // // // for(i=1;i<11;i++)
-// // // // // // {
-// // // // // // console.log( i)
-// // // // // // }
-// // // // // // var l=80;
-// // // // // // var  o=70;
-// // // // // // console.log(l+o);
-
-// // // // // // let a=50;
-// // // // // // let g=40;
-// // // // // // console.log(a+g);
-
-// // // // // // const z=90;
-// // // // // // const t=80;
-// // // // // // console.log(z+t);
-// // // // // // {
-// // // // // //     var e=60;
-// // // // // //     var b=70;
-// // // // // //     console.log(e+b);
-
-// // // // // //     let x=100;
-// // // // // //     let y=200;
-// // // // // //     console.log(x+y);
-// // // // // //     const p=300;
-// // // // // //     const q=400;
-// // // // // //     console.log(p+q);
-
-// // // // // // }
-// // // // // // console.log(e+b);
-
-// // // // // // // 2.varaible redeclartion
-
-// // // // // // var m=10;
-// // // // // // console.log(m);
-// // // // // // var m=20;
-// // // // // // console.log(m);
-// // // // // // let n=30;
-// // // // // // console.log(n);
-// // // // // // let s=40; 
-// // // // // // console.log(s);
-// // // // // // const r=50;
-// // // // // // console.log(r);
-// // // // // // const u=60; 
-// // // // // // console.log(u);
-
-// // // // // // // 3.value assignment
-
-// // // // // // var d=1000;
-// // // // // // console.log(d);
-// // // // // // d=600;
-// // // // // // console.log(d);
-// // // // // // let f={"hari":1,"ram":2};
-// // // // // // console.log(f); 
-// // // // // // f={"hari":3,"ram":2};
-// // // // // // console.log(f);
-// // // // // // const h=900;
-// // // // // // console.log(h); 
-// // // // // // v=100;
-// // // // // // console.log(v);
-// // // // // // let age=25;
-// // // // // // console.log(age);
-// // // // // // age=30; 
-// // // // // // console.log(age);
-// // // // // // // console.error("This is an error message");
-
-// // // // // // // 4. Data Types in JavaScript
-
-// // // // // // var o=10; 
-// // // // // // console.log(typeof o);
-// // // // // // var ename="John";
-// // // // // // console.log(typeof ename);
-// // // // // // var  school=false;
-// // // // // // console.log(typeof school);
-// // // // // // var hd=(90.5 + 80.5-70.5-60.5*67*90);
-// // // // // // console.log( hd);
-// // // // // // var w= ("hari");
-// // // // // // console.log(typeof w);
-// // // // // // console.log(w);
-// // // // // // let yd=100;
-// // // // // // console.log(yd);
-// // // // // // console.log(typeof yd);
-// // // // // // const pi= ({"hari":3.14});
-// // // // // // console.log(pi);
-// // // // // // console.log(typeof pi);
-// // // // // // let c=("kumar");
-// // // // // // console.log(c);
-// // // // // // console.log(typeof c);
-// // // // // // c=(1234);
-// // // // // // console.log(c);
-// // // // // // console.log(typeof c);
-// // // // // // const table=({ "hari":1,"ram":2,"sita":3});
-// // // // // // console.table(table);
-// // // // // // console.log(typeof table);
-// // // // // // var rname="John";
-// // // // // // console.log(rname);
-// // // // // // const o=(["2" ,"hari",100,true]);
-// // // // // // const b=2
-// // // // // // const j=o+b
-// // // // // // console.log(j);
-// // // // // // let mame=null;
-// // // // // // console.log(mame);
-// // // // // // let l;
-// // // // // // console.log(l);
-// // // // // // var d=new Date();
-// // // // // // console.log(d);
-// // // // // // const sym1=Symbol( "JK");
-// // // // // // console.log(sym1);
-// // // // // // console.log(typeof sym1);
-
-// // // // // // 4. type converstion
-
-// // // // // // let m
-// // // // // //   m=100;
-// // // // // // console.log(m,typeof m);
-// // // // // // const v=String(m);
+// // // // console.log("hello world");
 // // // // // // console.log(v,typeof v);
 // // // // // // let w=Number("1234");
 // // // // // // console.log(w,typeof w);
@@ -487,218 +365,218 @@
 // // for in loop
 // // let names=
 // // {
-// //     namek:"hari",
-// //     age:5,
-// //     city:"banglore",
-// //    contact:1234567890,
-// // }
-// // for(let porp in names){
-// //     console.log( porp+":",+
-// //         names[porp]);
-// // }
-// // // for of loop
+// // //     namek:"hari",
+// // //     age:5,
+// // //     city:"banglore",
+// // //    contact:1234567890,
+// // // }
+// // // for(let porp in names){
+// // //     console.log( porp+":",+
+// // //         names[porp]);
+// // // }
+// // // // for of loop
 
 
 
-// //  let o = ["hari", "ram", "sita", "gita",];
+// // //  let o = ["hari", "ram", "sita", "gita",];
 
-// // for (let i = 0; i < o.length; i++) {
-// //     console.log(i);     // index
-// //     console.log(o[i]);  // value at index
-// // }
+// // // for (let i = 0; i < o.length; i++) {
+// // //     console.log(i);     // index
+// // //     console.log(o[i]);  // value at index
+// // // }
 
-// // let namep=
-// // {
-// //     namek:"hari",
-// //     age:5,
-// //     city:"banglore",
-// //    contact:1234567890,
-// // }
-// // for(let porp in namep){
-// //     console.log( porp+":",+
-// //         namep[porp]);
-// // }
-// // // break statment
-// // for(o=0;o<=10;o++){
-// //     console.log(o);
-// //     if(o==4){
-// //         break;
-// //         }
-// // }
+// // // let namep=
+// // // {
+// // //     namek:"hari",
+// // //     age:5,
+// // //     city:"banglore",
+// // //    contact:1234567890,
+// // // }
+// // // for(let porp in namep){
+// // //     console.log( porp+":",+
+// // //         namep[porp]);
+// // // }
+// // // // break statment
+// // // for(o=0;o<=10;o++){
+// // //     console.log(o);
+// // //     if(o==4){
+// // //         break;
+// // //         }
+// // // }
 
-// // for(t=9;t<=20;t++){
-// //     if(t===15){
-// //         break;
-// //     }
-// //     console.log(t);
-// // }
-
-
-// // // continue statment
-
-// // for(u=0;u<=34;u++){
-// //     if(u==30){
-// //         continue;
-// //     }
-// //     console.log(u);
-// // }
+// // // for(t=9;t<=20;t++){
+// // //     if(t===15){
+// // //         break;
+// // //     }
+// // //     console.log(t);
+// // // }
 
 
-// // // lable  block
+// // // // continue statment
+
+// // // for(u=0;u<=34;u++){
+// // //     if(u==30){
+// // //         continue;
+// // //     }
+// // //     console.log(u);
+// // // }
 
 
-
-// // javascript string methods
-
-
-// // concatination
-// let frtname="hello this is javascript";
-// let lastname="welcome to the page";
-// c= frtname +"" +lastname;
-// console.log(c);
-
-
-// // /concate
-// c=frtname.concat(+" ",+lastname);
-// console.log(c);
-
-// // indexof
-// let tname="hello this is javascript";
-// let stname="welcome to the page";
-
-// c=tname.lastIndexOf("l");
-// console.log("index  l:"+c);
-
-// // chartAt
-// c=tname.charAt(4);
-// console.log("charat 4:"+c);
-
-// // chartcodeat
-// c=tname.charCodeAt(3);
-// console.log("CharcodeAt3:"+c);
+// // // // lable  block
 
 
 
-// // substring
-// c=tname.substring(4,14);
-// console.log("substring:"+c);
-
-// slice
-a="krishan"
-b="hari"
-c=a+b;
-c=a.slice(4) ;
-console.log("slice:"+c);  
-
-// split js
-w="hello this is javascript";
-c=w.split(" ");
-console.log("split:"+c);
-console.table(c);  
-
-// replace
-c=w.replace("javascript","python");
-console.log("replace:"+c);
-
-// include
-t=["hari","krishan","gita","sita"];
-c=t.includes("harta");
-c=t.includes("krish");
-console.log(c);
-
-// trim
-a="  harikrishnan  "
-console.log(a.length);
-a=a.trim();
-console.log(a.length);
-
-// padstart
-a="8";
-a=a.padStart(5,0);
-a=a.padStart(5,1);
-console.log(a);
-console.log(a);
+// // // javascript string methods
 
 
-// padend
-a="8";
-a=a.padEnd(2,"$");
-// a=a.padEnd(5,1);
-console.log(a);
-console.log(a);
+// // // concatination
+// // let frtname="hello this is javascript";
+// // let lastname="welcome to the page";
+// // c= frtname +"" +lastname;
+// // console.log(c);
 
 
-// long literal string
+// // // /concate
+// // c=frtname.concat(+" ",+lastname);
+// // console.log(c);
 
-let longstring="hello this is javascript"+
-"welcome to the page"+"this is a test message"+"we are learning javascript";
-console.log(longstring);
+// // // indexof
+// // let tname="hello this is javascript";
+// // let stname="welcome to the page";
 
-// fromchartcode
-console.log(String.fromCharCode(65 ,56,85,87,78,23));
-// this a code word type formchatcode
+// // c=tname.lastIndexOf("l");
+// // console.log("index  l:"+c);
 
-// template of the string
+// // // chartAt
+// // c=tname.charAt(4);
+// // console.log("charat 4:"+c);
 
-// array methods
-let names=["hari","krishan","gita","sita"];
- let hari=[m1=50,m2=60,m3=70];
-console.log(names);
-console.log(names.length);
-console.log(names[4]);
-console.table(names);
-console.table(hari);
+// // // chartcodeat
+// // c=tname.charCodeAt(3);
+// // console.log("CharcodeAt3:"+c);
+
+
+
+// console.log(a);
+// console.log(a);
+
+
+// // long literal string
+
+// let longstring="hello this is javascript"+
+// "welcome to the page"+"this is a test message"+"we are learning javascript";
+// console.log(longstring);
+
+// // fromchartcode
+// console.log(String.fromCharCode(65 ,56,85,87,78,23));
+// // this a code word type formchatcode
+
+// // template of the string
+
+// // array methods
+// let names=["hari","krishan","gita","sita"];
+//  let hari=[m1=50,m2=60,m3=70];
+// console.log(names);
+// console.log(names.length);
+// console.log(names[4]);
+// console.table(names);
+// console.table(hari);
  
-// foreach
-//  they are three type of have 1.value 2, index 3,array
-const y=[1,2,3,4,5,6,7,8,9,10];
-console.log(y);
-y.forEach(( value,index)=>{console.log("value:"+value+ " index;"+index)});
+// // foreach
+// //  they are three type of have 1.value 2, index 3,array
+// const y=[1,2,3,4,5,6,7,8,9,10];
+// console.log(y);
+// y.forEach(( value,index)=>{console.log("value:"+value+ " index;"+index)});
 
-// map methodes
+// // map methodes
 
-let z=[1,2,3,4,5,6,7,8,9,10];
-let newarray=z.map((value,index)=>{return value*4;});
-console.log(newarray);
+// let z=[1,2,3,4,5,6,7,8,9,10];
+// let newarray=z.map((value,index)=>{return value*4;});
+// console.log(newarray);
 
-    // slice method
-    let fruits=["apple","banana","grapes","mango","orange"];
-    console.log(fruits);
-    console.log("slice :" +fruits .slice(1,5));
+//     // slice method
+//     let fruits=["apple","banana","grapes","mango","orange"];
+//     console.log(fruits);
+//     console.log("slice :" +fruits .slice(1,5));
 
-    // splice methdes
-    let har=["10" ,"20","30","40","60"];  /* this a remove the elements in splices method*/
-    console.log(har);
-    let removed_elements =har.splice(30,40);
-    console.log("splice:"+ removed_elements,har);
-    const kar=[1,2,3,4,5,6,7,8,9];
-    console.log(kar);
-    // tis a add the elemnts in splices method
-    kar.splice(8,0,4);
-    console.log(kar);
+//     // splice methdes
+//     let har=["10" ,"20","30","40","60"];  /* this a remove the elements in splices method*/
+//     console.log(har);
+//     let removed_elements =har.splice(30,40);
+//     console.log("splice:"+ removed_elements,har);
+//     const kar=[1,2,3,4,5,6,7,8,9];
+//     console.log(kar);
+//     // this a add the elemnts in splices method
+//     kar.splice(8,0,4);
+//     console.log(kar);
 
-    //  concat method
-    let a1=[1,2,3];
-    let a2=[4,5,6];
-    let a3=a1.concat(a2,90,80,70,["hari","krishan","gita"]);
-    console.table(a3);
+//     //  concat method
+//     let a1=[1,2,3];
+//     let a2=[4,5,6];
+//     let a3=a1.concat(a2,90,80,70,["hari","krishan","gita"]);
+//     console.table(a3);
 
-//     // sort()
-//    const g=("banana","apple","mango","grapes","orange");
-//    console.log(g); 
-//     g.Sort();
-//    console.log(g);
+// //     // sort()
+// //    const g=("banana","apple","mango","grapes","orange");
+// //    console.log(g); 
+// //     // g.Sort();
+// //    console.log(g);
     
 
-// fill method ( value ,start ,end)
-let u=[1,2,3,4,5,6,7,8,9];
-console.log("before :"+u);
-u.fill("l" );
-u.fill("k" ,4,7);
+// // fill method ( value ,start ,end)
+// let u=[1,2,3,4,5,6,7,8,9];
+// console.log("before :"+u);
+// u.fill("l" );
+// u.fill("k" ,4);
 
-console.log("after  :"+u);
+// console.log("after  :"+u);
+// console.table(u);
 
-// inlcdes method( value , start ,index)
-const q={name:"hari",age:25,city:"banglore"};
-let result=q.includes["hari"];
-console.log(result);
+// // // inlcdes method( value , start ,index)
+let Q=["hari","banglore","india","kumar"];
+let result=Q.includes ("krishna");
+// join method this methd is a type f arry
+  const colors=["red" ,"green","blue" ,"yellow","orange"];
+console.log (colors) ;
+console.log(colors.join( '|' ));
+// // reverse in javascript
+let arr=[1,2,3,4,5];
+console.log("before reverse:",arr);
+arr.reverse();
+console.log("after reverse:",arr);
+const t=["hari","names:krishan","gita","sita"];
+console.log("before reverse:",t);
+t.reverse();
+console.log("after reverse:",t);
+
+// push yjavascript
+let r=[1,2,3,4,5];
+console.log("before push:",r);
+r.push(7,8,10,12,15,16,15,14,181,90);
+console.log("after push:",r);
+r.reverse();
+console.log("after reverse:",r);
+
+// pop method in javascript 
+let d=["dharshana","krishan","gita","sita"];
+console.log("before pop:",d);
+d.pop();
+console.log("after pop:",d);
+d.pop();
+console.log("after pop:",d);
+
+// shift method in javascript
+let f=["hari","krishan","gita","sita"];
+console.log("before shift:",f);
+f.shift();
+console.log("after shift:",f);
+f.shift();
+console.log("after shift:",f);
+
+// unshift method in javascript
+let u=["hari","krishan","gita","sita"];
+console.log("before unshift:",u);
+ let v=u.unshift("ram","mohan","shyam","ravi","ankit");
+console.log("after unshift:",u);
+console .log(u);
+
