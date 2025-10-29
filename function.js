@@ -583,167 +583,261 @@
 // c=tname.substring(4,14);
 // console.log("substring:"+c);
 
-// slice
-a="krishan"
-b="hari"
-c=a+b;
-c=a.slice(4) ;
-console.log("slice:"+c);  
+// // slice
+// a="krishan"
+// b="hari"
+// c=a+b;
+// c=a.slice(4) ;
+// console.log("slice:"+c);  
 
 // split js
-w="hello this is javascript";
-c=w.split(" ");
-console.log("split:"+c);
-console.table(c);  
+// a="hello this is javascript welcome to the page";
+// w=a;
+// c=w.split(" ");
+// console.log("split:"+c);
+// console.table(c);  
 
-// replace
-c=w.replace("javascript","python");
-console.log("replace:"+c);
+// // replace
+// c=w.replace("javascript","python");
+// console.log("replace:"+c);
 
-// include
-t=["hari","krishan","gita","sita"];
-c=t.includes("harta");
-c=t.includes("krish");
-console.log(c);
+// // include
+// t=["hari","krishan","gita","sita"];
+// c=t.includes("harta");
+// c=t.includes("krish");
+// console.log(c);
 
-// trim
-a="  harikrishnan  "
-console.log(a.length);
-a=a.trim();
-console.log(a.length);
+// // trim
+// a="  harikrishnan  "
+// console.log(a.length);
+// a=a.trim();
+// console.log(a.length);
 
-// padstart
-a="8";
-a=a.padStart(5,0);
-a=a.padStart(5,1);
-console.log(a);
-console.log(a);
-
-
-// padend
-a="8";
-a=a.padEnd(2,"$");
-// a=a.padEnd(5,1);
-console.log(a);
-console.log(a);
+// // padstart
+// a="8";
+// a=a.padStart(5,0);
+// a=a.padStart(5,1);
+// console.log(a);
+// console.log(a);
 
 
-// long literal string
+// // padend
+// a="8";
+// a=a.padEnd(2,"$");
+// // a=a.padEnd(5,1);
+// console.log(a);
+// console.log(a);
 
-let longstring="hello this is javascript"+
-"welcome to the page"+"this is a test message"+"we are learning javascript";
-console.log(longstring);
 
-// fromchartcode
-console.log(String.fromCharCode(65 ,56,85,87,78,23));
-// this a code word type formchatcode
+// // long literal string
 
-// template of the string
+// let longstring="hello this is javascript"+
+// "welcome to the page"+"this is a test message"+"we are learning javascript";
+// console.log(longstring);
 
-// array methods
-let names=["hari","krishan","gita","sita"];
- let hari=[m1=50,m2=60,m3=70];
-console.log(names);
-console.log(names.length);
-console.log(names[4]);
-console.table(names);
-console.table(hari);
+// // fromchartcode
+// console.log(String.fromCharCode(65 ,56,85,87,78,23));
+// // this a code word type formchatcode
+
+// // template of the string
+
+// // array methods
+// let names=["hari","krishan","gita","sita"];
+//  let hari=[m1=50,m2=60,m3=70];
+// console.log(names);
+// console.log(names.length);
+// console.log(names[4]);
+// console.table(names);
+// console.table(hari);
  
-// foreach
-//  they are three type of have 1.value 2, index 3,array
-const y=[1,2,3,4,5,6,7,8,9,10];
-console.log(y);
-y.forEach(( value,index)=>{console.log("value:"+value+ " index;"+index)});
+// // foreach
+// //  they are three type of have 1.value 2, index 3,array
+// const y=[1,2,3,4,5,6,7,8,9,10];
+// console.log(y);
+// y.forEach(( value,index)=>{console.log("value:"+value+ " index;"+index)});
 
-// map methodes
+// // map methodes
 
-let z=[1,2,3,4,5,6,7,8,9,10];
-let newarray=z.map((value,index)=>{return value*4;});
-console.log(newarray);
+// let z=[1,2,3,4,5,6,7,8,9,10];
+// let newarray=z.map((value,index)=>{return value*4;});
+// console.log(newarray);
 
-    // slice method
-    let fruits=["apple","banana","grapes","mango","orange"];
-    console.log(fruits);
-    console.log("slice :" +fruits .slice(1,5));
+//     // slice method
+//     let fruits=["apple","banana","grapes","mango","orange"];
+//     console.log(fruits);
+//     console.log("slice :" +fruits .slice(1,5));
 
-    // splice methdes
-    let har=["10" ,"20","30","40","60"];  /* this a remove the elements in splices method*/
-    console.log(har);
-    let removed_elements =har.splice(30,40);
-    console.log("splice:"+ removed_elements,har);
-    const kar=[1,2,3,4,5,6,7,8,9];
-    console.log(kar);
-    // tis a add the elemnts in splices method
-    kar.splice(8,0,4);
-    console.log(kar);
+//     // splice methdes
+//     let har=["10" ,"20","30","40","60"];  /* this a remove the elements in splices method*/
+//     console.log(har);
+//     let removed_elements =har.splice(30,40);
+//     console.log("splice:"+ removed_elements,har);
+//     const kar=[1,2,3,4,5,6,7,8,9];
+//     console.log(kar);
+//     // tis a add the elemnts in splices method
+//     kar.splice(8,0,4);
+//     console.log(kar);
 
-    //  concat method
-    let a1=[1,2,3];
-    let a2=[4,5,6];
-    let a3=a1.concat(a2,90,80,70,["hari","krishan","gita"]);
-    console.table(a3);
+//     //  concat method
+//     let a1=[1,2,3];
+//     let a2=[4,5,6];
+//     let a3=a1.concat(a2,90,80,70,["hari","krishan","gita"]);
+//     console.table(a3);
 
-//     // sort()
-//    const g=("banana","apple","mango","grapes","orange");
-//    console.log(g); 
-//     g.Sort();
-//    console.log(g);
+// //     // sort()
+// //    const g=("banana","apple","mango","grapes","orange");
+// //    console.log(g); 
+// //     g.Sort();
+// //    console.log(g);
     
 
-// fill method ( value ,start ,end)
-let a=[1,2,3,4,5,6,7,8,9];
-console.log("before :"+a);
-u.fill("l" );
-u.fill("k" ,4,7);
+// // fill method ( value ,start ,end)
+// let a=[1,2,3,4,5,6,7,8,9];
+// console.log("before :"+a);
+// u.fill("l" );
+// u.fill("k" ,4,7);
 
-console.log("after  :"+u);
+// console.log("after  :"+u);
 
-// inlcdes method( value , start ,index)
-const q={name:"hari",age:25,city:"banglore"};
-let result=q.includes["hari"];
-console.log(result); 
+// // inlcdes method( value , start ,index)
+// const q={name:"hari",age:25,city:"banglore"};
+// let result=q.includes["hari"];
+// console.log(result); 
 
 
- reverse in javascript
-let arr=[1,2,3,4,5];
-console.log("before reverse:",arr);
-arr.reverse();
-console.log("after reverse:",arr);
-const t=["hari","names:krishan","gita","sita"];
-console.log("before reverse:",t);
-t.reverse();
-console.log("after reverse:",t);
+//  reverse in javascript
+// let arr=[1,2,3,4,5];
+// console.log("before reverse:",arr);
+// arr.reverse();
+// console.log("after reverse:",arr);
+// const t=["hari","names:krishan","gita","sita"];
+// console.log("before reverse:",t);
+// t.reverse();
+// console.log("after reverse:",t);
 
-// push yjavascript
-let r=[1,2,3,4,5];
-console.log("before push:",r);
-r.push(7,8,10,12,15,16,15,14,181,90);
-console.log("after push:",r);
-r.reverse();
-console.log("after reverse:",r);
+// // push yjavascript
+// let r=[1,2,3,4,5];
+// console.log("before push:",r);
+// r.push(7,8,10,12,15,16,15,14,181,90);
+// console.log("after push:",r);
+// r.reverse();
+// console.log("after reverse:",r);
 
-// pop method in javascript 
-let d=["dharshana","krishan","gita","sita"];
-console.log("before pop:",d);
-d.pop();
-console.log("after pop:",d);
-d.pop();
-console.log("after pop:",d);
+// // pop method in javascript 
+// let d=["dharshana","krishan","gita","sita"];
+// console.log("before pop:",d);
+// d.pop();
+// console.log("after pop:",d);
+// d.pop();
+// console.log("after pop:",d);
 
-// shift method in javascript
-let f=["hari","krishan","gita","sita"];
-console.log("before shift:",f);
-f.shift();
-console.log("after shift:",f);
-f.shift();
-console.log("after shift:",f);
+// // shift method in javascript
+// let f=["hari","krishan","gita","sita"];
+// console.log("before shift:",f);
+// f.shift();
+// console.log("after shift:",f);
+// f.shift();
+// console.log("after shift:",f);
 
-// unshift method in javascript
-let u=["hari","krishan","gita","sita"];
-console.log("before unshift:",u);
- let v=u.unshift("ram","mohan","shyam","ravi","ankit");
-console.log("after unshift:",u);
-console .log(u);
+// // unshift method in javascript
+// let u=["hari","krishan","gita","sita"];
+// console.log("before unshift:",u);
+//  let v=u.unshift("ram","mohan","shyam","ravi","ankit");
+// console.log("after unshift:",u);
+// console .log(u);
 
-let p=["hari","krishan","gita","sita"];
-console.log("before unshift:",p);   
+// let p=["hari","krishan","gita","sita"];
+// console.log("before unshift:",p);   
+
+// // indexof() method in javascript
+p=["hari","krishan","yita","sita","hari","gita"];
+console.log(p);
+ let l=p.indexOf("gita");
+console.log("index :"+l);
+ 
+i="hari dharshana";
+let r= i.indexOf("d");
+q=i.trim();
+console.log("indexof:"+r);
+
+// last indexof() method in javascript
+y=["hari","krishan","yita","sita","hari","gita"];
+    let m=y.lastIndexOf("yita"); 
+    console.log("last indexof:"+m);
+
+// every() some one
+k=[2,4,6,8,10,12,14,15,18,20];
+let odd=k.every((value)=>{return value %2==0;});  
+console.log("every even:"+odd);
+// some() method in javascript
+k=[2,4,6,8,10,12,14,15,18,20];
+let even=k.some((value)=>{return value %2==0;});  
+console.log("every even:"+even);
+
+// primitive and refences type
+
+// mulitple  way to clone array to javascript
+
+// const method
+const  arr1=["hari","krishan","gita","sita"];
+const arr2=arr1;
+console.log("arr1:",arr1);
+console.log("arr2:",arr2);
+arr2.push("ram","mohan","shyam","ravi");
+console.log("after push arr1:",arr1);
+console.log("after push arr2:",arr2);
+arr1.pop();
+console.log("after pop arr1:",arr1);
+console.log("after pop arr2:",arr2);
+arr1.shift();
+console.log("after shrift arr1:",arr1);
+console.log("after shrift arr2:",arr2);
+
+// destructuring  in java script
+
+let names=["hari","krishan","gita","sita","ram"];
+let [a,b,c,d,e]=names;
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+console.log(e);
+// creating  objecti javascript
+// object literal
+let pesron={
+    name:"hari",
+    age:25,
+    city:"banglore",
+    contact:1234567890,
+};
+console.log(pesron); 
+
+// dot notation and bracket notation
+let person={
+    names:"krishan",
+    age:30,
+    city:"delhi",
+    contact:9876543210,
+}; 
+console.log(person);
+
+// dot notation
+console .log("name:",pesron);
+person.names="kumar";
+
+// function methods
+ function add (a,g){
+    return (a-g)
+
+
+ }
+ console.log(add(12,55))
+console.log(add(12,65))
+
+ function sub(o,l){
+    return(o*l)
+}
+console.log(sub(14,55))
+// callback function
+
+
